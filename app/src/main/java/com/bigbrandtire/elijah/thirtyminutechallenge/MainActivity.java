@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
     private long startTime = 0L;
     long timeSwap = 0L;
     long finalTime = 0L;
-    int _seconds = 0;
+    int __seconds = 0;
     private Runnable updateTimerMethod = new Runnable() {
 
         public void run() {
@@ -181,8 +181,8 @@ public class MainActivity extends AppCompatActivity {
                 int seconds = (int) (finalTime / 1000);
                 int minutes = seconds / 60;
                 seconds = seconds % 60;
-                _seconds += seconds;
-                mProgressBar.setProgress((int)( _seconds * 100/(2700000 /1000)));
+                __seconds += seconds;
+                mProgressBar.setProgress((int)(__seconds * 100/(2700000 /1000)));
                 int milliseconds = (int) (finalTime % 1000);
                 if(minutes <= 45) {
                     txtMinute.setText(String.valueOf(minutes));
