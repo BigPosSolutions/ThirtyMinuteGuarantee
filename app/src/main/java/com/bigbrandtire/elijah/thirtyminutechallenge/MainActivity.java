@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
     private long startTime = 0L;
     long timeSwap = 0L;
     long finalTime = 0L;
-
+    int _seconds = 0;
     private Runnable updateTimerMethod = new Runnable() {
 
         public void run() {
@@ -177,10 +177,12 @@ public class MainActivity extends AppCompatActivity {
                 drawab.setColor(getResources().getColor(R.color.count_up));
                 timeInMillies = d.getTime() - startTime;
                 finalTime = timeSwap + timeInMillies;
+
                 int seconds = (int) (finalTime / 1000);
                 int minutes = seconds / 60;
                 seconds = seconds % 60;
-                mProgressBar.setProgress((int)( minutes *100/(2700000 /1000)));
+                _seconds += seconds;
+                mProgressBar.setProgress((int)( _seconds * 100/(2700000 /1000)));
                 int milliseconds = (int) (finalTime % 1000);
                 if(minutes <= 45) {
                     txtMinute.setText(String.valueOf(minutes));
