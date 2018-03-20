@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1075340071303",
+    "firebase_url": "https://thirtyminutechallenge.firebaseio.com",
+    "project_id": "thirtyminutechallenge",
+    "storage_bucket": "thirtyminutechallenge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075340071303:android:9f7170583d04c503",
+        "android_client_info": {
+          "package_name": "com.bbt.elijah.bbtthirtyminuteguarantee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075340071303-sp08cl9erfcmmjjkc1mhoop1laa5fj4t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bbt.elijah.bbtthirtyminuteguarantee",
+            "certificate_hash": "2ba7a5127fa30ae5fd577e90b1b74e345675c56e"
+          }
+        },
+        {
+          "client_id": "1075340071303-e2itr4pq6eh3vcaforip55ivpphodeo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF05S9YLC6Po4S73nwuJO_ulGDKJQj_Bg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075340071303-e2itr4pq6eh3vcaforip55ivpphodeo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075340071303:android:cf699de627b95c82",
+        "android_client_info": {
+          "package_name": "com.bigbrandtire.elijah.thirtyminutechallenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075340071303-8hu7us5omhktq01noegtbr7p94iq462g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigbrandtire.elijah.thirtyminutechallenge",
+            "certificate_hash": "528ff89b26913cf6c44b48d0e5d0c2d485965fa0"
+          }
+        },
+        {
+          "client_id": "1075340071303-e2itr4pq6eh3vcaforip55ivpphodeo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF05S9YLC6Po4S73nwuJO_ulGDKJQj_Bg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075340071303-e2itr4pq6eh3vcaforip55ivpphodeo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

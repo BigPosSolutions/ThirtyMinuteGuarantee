@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@android:id/progress">
+        <shape
+            android:innerRadiusRatio="@dimen/circleProgressRadius"
+            android:shape="ring"
+            android:thicknessRatio="@dimen/circleProgressThickness">
+
+            <solid android:color="#72d4fa"/>
+        </shape>
+    </item>
+</layer-list>
